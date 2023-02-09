@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -86,7 +86,7 @@ h1 {
   left: 253px;
   top: 106px;
 
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
@@ -101,7 +101,7 @@ h1 {
   left: 253px;
   top: 240px;
 
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -120,7 +120,7 @@ h1 {
   top: 260px;
   margin-top: 20px;
 
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -175,7 +175,7 @@ h1 {
   height: 30px;
   left: 265px;
   top: 440px;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -193,7 +193,7 @@ h1 {
   left: 800px;
   top: 440px;
 
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -215,7 +215,7 @@ div.moneyChangerDiv1 {
   top: 269px;
 }
 
-.moneyChangerDiv1 p {
+/* .moneyChangerDiv1 p {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -223,14 +223,14 @@ div.moneyChangerDiv1 {
   display: flex;
   align-items: center;
   color: #9f9f9f;
-}
+} */
 
 .valutaNames1 {
   position: relative;
   width: 63.81px;
   height: 28px;
 
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -259,7 +259,7 @@ div.moneyChangerDiv1 {
   color: #000000;
   cursor: pointer;
 }
-.valutaNames li button.active1 {
+.valutaNames1 li button.active1 {
   background-color: #833ae0;
 }
 .moneyChangerBox1 {
@@ -280,7 +280,7 @@ div.moneyChangerDiv1 {
   height: 28px;
   left: 790px;
   top: 238px;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -288,4 +288,11 @@ div.moneyChangerDiv1 {
   display: flex;
   align-items: center;
   color: #9f9f9f;
+}
+
+.rigthMoneyBox {
+  font-size: 50px;
+  font-weight: 500;
+  color: black;
+  margin: 20px;
 }
