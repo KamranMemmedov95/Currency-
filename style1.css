@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+body {
+  font-family: Roboto;
+}
+.navBar {
+  position: absolute;
+  width: 1530px;
+  height: 50px;
+  left: 0px;
+  top: 0px;
+  background: #f5f5f6;
+}
+
+.bankNameImg {
+  position: fixed;
+  width: 89px;
+  height: 23px;
+  left: 100px;
+  top: 15px;
+}
+.navBarTextNames {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  float: none;
+  top: 1%;
+  left: 20%;
+}
+
+.navBarTextNames li {
+  float: left;
+}
+a {
+  display: block;
+  padding: 8px;
+}
+li a:hover {
+  background-color: white;
+  border-radius: 20px;
+}
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.signupButton {
+  position: absolute;
+  width: 80px;
+  height: 40px;
+  left: 1350px;
+  top: 5px;
+  border-style: none;
+  background: #ffffff;
+  border-radius: 8px;
+}
+.signupButton a {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+  font-size: large;
+}
+
+.signupButton:hover {
+  background-color: #f5f5f6;
+}
+
+h1 {
+  position: absolute;
+  width: 800px;
+  left: 253px;
+  top: 106px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 42px;
+
+  color: #000000;
+}
+.moneyChangerDiv p {
+  position: fixed;
+  width: 120px;
+  height: 28px;
+  left: 253px;
+  top: 240px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+
+  color: #9f9f9f;
+}
+
+.valutaNames {
+  position: relative;
+  width: 63.81px;
+  height: 28px;
+  left: 205px;
+  top: 260px;
+  margin-top: 20px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.valutaNames button {
+  color: #c6c6c6;
+  background-color: white;
+  margin: 0;
+  border: solid 1px #c6c6c6;
+  border-radius: 3px;
+  padding: 0;
+  height: 35px;
+  width: 100px;
+}
+.valutaNames li {
+  text-decoration: none;
+  list-style-type: none;
+}
+.valutaNames button:hover {
+  background-color: #833ae0;
+  color: #000000;
+  cursor: pointer;
+}
+
+.valutaNames li button.active {
+  background-color: #833ae0;
+}
+
+.moneyChangerBox {
+  box-sizing: border-box;
+  position: absolute;
+  width: 400px;
+  height: 150px;
+  left: 253px;
+  top: 320px;
+  font-size: 50px;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.spanTo {
+  position: fixed;
+  width: 119px;
+  height: 30px;
+  left: 265px;
+  top: 440px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+
+  color: #c6c6c6;
+}
+
+.spanFrom {
+  position: fixed;
+  width: 1000px;
+  height: 28px;
+  left: 800px;
+  top: 440px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+
+  color: #c6c6c6;
+}
+div.moneyChangerBox {
+  height: 50px;
+}
+
+div.moneyChangerDiv1 {
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  left: 750px;
+  top: 269px;
+}
+
+.moneyChangerDiv1 p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: #9f9f9f;
+}
+
+.valutaNames1 {
+  position: relative;
+  width: 63.81px;
+  height: 28px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+
+  color: #ffffff;
+}
+
+.valutaNames1 button {
+  color: #c6c6c6;
+  background-color: white;
+  margin: 0;
+  border: solid 1px #c6c6c6;
+  border-radius: 3px;
+  padding: 0;
+  height: 35px;
+  width: 100px;
+}
+.valutaNames1 button:hover {
+  background-color: #833ae0;
+  color: #000000;
+  cursor: pointer;
+}
+.valutaNames li button.active1 {
+  background-color: #833ae0;
+}
+.moneyChangerBox1 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 400px;
+  height: 150px;
+  left: 40px;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  font-size: 50px;
+}
+.text1 {
+  position: fixed;
+  width: 120px;
+  height: 28px;
+  left: 790px;
+  top: 238px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: #9f9f9f;
+}
